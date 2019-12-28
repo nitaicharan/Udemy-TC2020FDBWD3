@@ -1,39 +1,30 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-          backgroundColor: Colors.teal,
-          body: SafeArea(
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: <Widget>[
-                Container(
-                  height: 100.0,
-                  width: 100.0,
-                  color: Colors.red,
-                ),
-                Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      Container(
-                          color: Colors.yellow, width: 100.0, height: 100.0),
-                      Container(
-                          color: Colors.green, width: 100.0, height: 100.0),
-                    ]),
-                Container(
-                  color: Colors.blue,
-                  height: 100.0,
-                  width: 100.0,
-                )
-              ],
+        backgroundColor: Colors.teal,
+        body: SafeArea(
+          child: Column(children: <Widget>[
+            CircleAvatar(
+              radius: 50.0,
+              backgroundImage: AssetImage('images/profile.jpeg'),
             ),
-          )),
+            Text(
+              'Nitai Charan',
+              style: TextStyle(
+                  fontSize: 40.0,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold),
+            ),
+          ]),
+        ),
+      ),
     );
   }
 }
