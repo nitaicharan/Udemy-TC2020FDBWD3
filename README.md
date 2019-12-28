@@ -7,7 +7,7 @@
 
 Project available to access at: https://nitaicharan.github.io/Udemy-TC2020FDBWD3/
 
-[![](Udemy-TC2020FDBWD3.png)](https://nitaicharan.github.io/Udemy-TC2020FDBWD3/)
+<!--[![](Udemy-TC2020FDBWD3.png)](https://nitaicharan.github.io/Udemy-TC2020FDBWD3/)-->
 
 ## Deploy
 ```
@@ -29,7 +29,7 @@ This project was part of the Udemy course "The Complete 2020 Flutter Development
 - Description: [Link][course-url]
 
 ## Certificate
-[![](certificate.jpg)][certificate-url]
+[![](certificate.png)][certificate-url]
 
 ### Certificate description
 This certificate above verifies that [Nitai Charan][udemy-url] successfully completed the course [The Complete 2020 Flutter Development Bootcamp with Dart][course-url] on 12/27/2019 as taught by [Angela Yu][instructor-url] on Udemy. The certificate indicates the entire course was completed as validated by the student.
@@ -46,8 +46,8 @@ This certificate above verifies that [Nitai Charan][udemy-url] successfully comp
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 <!-- ALIES README -->
-[course-url]: #
-[instructor-url]: #
+[course-url]: https://www.udemy.com/course/flutter-bootcamp-with-dart/
+[instructor-url]: https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/
 [certificate-url]: #
 
 
