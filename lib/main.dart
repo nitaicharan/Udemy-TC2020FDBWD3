@@ -10,19 +10,36 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Column(children: <Widget>[
-            CircleAvatar(
-              radius: 50.0,
-              backgroundImage: AssetImage('images/profile.jpeg'),
+          child: Container(
+            width: double.infinity,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                CircleAvatar(
+                  radius: 50.0,
+                  backgroundImage: AssetImage('images/profile.jpeg'),
+                ),
+                Text(
+                  'Nitai Charan',
+                  style: TextStyle(
+                      fontSize: 40.0,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'Pacifico'),
+                ),
+                Text(
+                  'Flull Stack Developer',
+                  style: TextStyle(
+                    fontFamily: 'Source Sans Pro',
+                    fontSize: 20.0,
+                    color: Colors.teal.shade100,
+                    letterSpacing: 2.5,
+                    fontWeight: FontWeight.bold
+                  ),
+                )
+              ],
             ),
-            Text(
-              'Nitai Charan',
-              style: TextStyle(
-                  fontSize: 40.0,
-                  color: Colors.white,
-                  fontWeight: FontWeight.bold),
-            ),
-          ]),
+          ),
         ),
       ),
     );
